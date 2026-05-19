@@ -1,6 +1,6 @@
 # SuperSense Home Assistant Integration
 
-Custom Integration für den **Comworks SuperSense** Füllstandssensor in Home Assistant.
+Custom Integration für den SuperSense Füllstandssensor in Home Assistant.
 
 Verbindet sich **direkt per Bluetooth** mit dem Sensor – kein ESP32, kein Zigbee-Coordinator nötig.
 
