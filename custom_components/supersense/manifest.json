@@ -1,0 +1,17 @@
+{
+  "domain": "supersense",
+  "name": "SuperSense Füllstandssensor",
+  "version": "1.0.0",
+  "documentation": "https://github.com/adahmen/supersense-homeassistant",
+  "issue_tracker": "https://github.com/adahmen/supersense-homeassistant/issues",
+  "codeowners": ["@adahmen"],
+  "dependencies": ["bluetooth"],
+  "requirements": [],
+  "bluetooth": [
+    {
+      "service_uuid": "a0eeb190-6b2a-45fb-966e-d8e49323691f"
+    }
+  ],
+  "config_flow": true,
+  "iot_class": "local_push"
+}

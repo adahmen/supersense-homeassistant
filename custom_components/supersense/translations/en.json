@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add SuperSense Sensor",
+        "description": "{count} SuperSense sensor(s) found. Please select:",
+        "data": {
+          "mac": "MAC Address"
+        }
+      },
+      "confirm": {
+        "title": "Confirm SuperSense Sensor",
+        "description": "SuperSense sensor ({mac}) was automatically discovered. Continue to configuration?"
+      },
+      "setup": {
+        "title": "Configure Sensor",
+        "description": "Enter a name and the tank capacity.",
+        "data": {
+          "name": "Name",
+          "tank_capacity": "Tank Capacity (Liters)"
+        }
+      }
+    },
+    "error": {
+      "no_devices_found": "No SuperSense sensor found in range. Make sure the sensor is powered on.",
+      "cannot_connect": "Failed to connect to sensor.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This sensor is already configured.",
+      "no_devices_found": "No SuperSense sensor found."
+    }
+  }
+}
